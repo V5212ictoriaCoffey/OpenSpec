@@ -56,5 +56,8 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/openspec/openspec.git"
+  },
+  "volta": {
+    "node": "20.11.0"
   }
 }
