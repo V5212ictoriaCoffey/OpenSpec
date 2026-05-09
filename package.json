@@ -24,7 +24,8 @@
     "changeset": "changeset",
     "version": "changeset version",
     "release": "changeset publish",
-    "clean": "rm -rf dist"
+    "clean": "rm -rf dist",
+    "validate": "npm run typecheck && npm run lint && npm run test"
   },
   "keywords": [
     "openapi",
