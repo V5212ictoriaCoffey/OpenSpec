@@ -25,7 +25,8 @@
     "version": "changeset version",
     "release": "changeset publish",
     "clean": "rm -rf dist",
-    "validate": "npm run typecheck && npm run lint && npm run test"
+    "validate": "npm run typecheck && npm run lint && npm run test",
+    "build:clean": "npm run clean && npm run build"
   },
   "keywords": [
     "openapi",
@@ -62,5 +63,8 @@
     "node": "20.11.0"
   },
   "packageManager": "npm@10.2.4",
-  "_note": "Personal fork for learning — upstream: https://github.com/Fission-AI/OpenSpec"
+  "_note": "Personal fork for learning — upstream: https://github.com/Fission-AI/OpenSpec",
+  "_notes": [
+    "Added build:clean script as a convenience shortcut for clean + build in one step"
+  ]
 }
